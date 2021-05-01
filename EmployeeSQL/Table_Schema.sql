@@ -14,7 +14,7 @@ CREATE TABLE employees(
 	first_name VARCHAR(30),
 	last_name VARCHAR(30),
 	sex VARCHAR(30),
-	hire_date VARCHAR(30);
+	hire_date VARCHAR(30));
 
 CREATE TABLE dept_emp(
 	emp_no INT,
