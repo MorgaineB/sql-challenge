@@ -21,3 +21,9 @@ SELECT e.emp_no, e.last_name, e.first_name, d.dept_name
 FROM employees e
 JOIN dept_emp AS de ON e.emp_no = de.emp_no
 JOIN departments AS d ON de.dept_no = d.dept_no;
+
+--List First Name, Last Name, and Sex for Employees whose first name is "Hercules" and last names begin with "B".
+SELECT first_name, last_name, sex
+FROM employees
+WHERE first_name = 'Hercules'
+	AND last_name LIKE 'B%';
