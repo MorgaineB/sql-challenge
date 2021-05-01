@@ -47,6 +47,6 @@ WHERE d.dept_name = 'Sales' OR d.dept_name = 'Development';
 SELECT last_name, COUNT (*) AS "Frequency Count"
 FROM employees
 GROUP BY last_name
-ORDER BY "Frequency Count";
+ORDER BY "Frequency Count" DESC;
 
 
